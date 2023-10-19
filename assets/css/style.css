@@ -1,0 +1,114 @@
+ /* css reset  */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+
+ /* navbar style  */
+ .navigation-custom{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .navbar-brand img{
+height: 35px;
+ }
+ .nav-link{
+    font-size: 1.5rem;
+ }
+ .nav-item{
+    margin-left: 40px;
+ }
+
+ .product .card{
+border: none;
+background: transparent;
+ }
+ .product .card img{
+   object-fit: cover;
+ }
+
+ .footer1{
+background-color: lightgray;
+ }
+
+ .mencontainer .card{
+   border: none;
+   background: transparent;
+ }
+ .mencontainer .card img{
+   object-fit: cover;
+ }
+
+ .womencontainer .card{
+   border: none;
+   background: transparent;
+ }
+ .womencontainer .card img{
+   object-fit: cover;
+ }
+
+ .girlscontainer .card{
+   border: none;
+   background: transparent;
+ }
+ .girlscontainer .card img{
+   object-fit: cover;
+ }
+
+ .card1 img:hover{
+  content: url("/assets/images/women/4.webp");
+ }
+ .card2 img:hover{
+  content: url("/assets/images/offer1.jpg");
+ }
+ .card3 img:hover{
+  content: url("/assets/images/women/2.webp");
+ }
+ .card4 img:hover{
+  content: url("/assets/images/women/3.webp");
+ }
+
+ .card5 img:hover{
+  content: url("/assets/images/products/5.webp");
+ }
+ .card6 img:hover{
+  content: url("/assets/images/products/6.webp");
+ }
+ .card7 img:hover{
+  content: url("/assets/images/products/7.webp");
+ }
+ .card8 img:hover{
+  content: url("/assets/images/products/8.webp");
+ }
+
+ .card9 img:hover{
+  content: url("/assets/images/products/1.webp");
+ }
+ .card10 img:hover{
+  content: url("/assets/images/products/2.webp");
+ }
+ .card11 img:hover{
+  content: url("/assets/images/products/3.webp");
+ }
+ .card12 img:hover{
+  content: url("/assets/images/products/4.webp");
+ }
+
+ .card13 img:hover{
+  content: url("/assets/images/girls/1.webp");
+ }
+ .card14 img:hover{
+  content: url("/assets/images/girls/2.webp");
+ }
+ .card15 img:hover{
+  content: url("/assets/images/girls/4.webp");
+ }
+ .card16 img:hover{
+  content: url("/assets/images/girls/8.webp");
+ }
